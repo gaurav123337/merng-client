@@ -6,7 +6,6 @@ import moment from 'moment';
 
 import { AuthContext } from '../context/auth';
 
-import PropTypes from 'prop-types';
 import { Button, Card, Grid, Image, Icon, Label, Form } from 'semantic-ui-react';
 import LikeButton from '../components/LikeButton';
 import DeleteButton from '../components/DeleteButton';

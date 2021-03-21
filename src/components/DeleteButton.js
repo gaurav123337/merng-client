@@ -1,11 +1,10 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import gql from 'graphql-tag';
 import { useMutation } from '@apollo/react-hooks';
 
 import { Button, Confirm, Icon } from 'semantic-ui-react';
 import { FETCH_POSTS_QUERY } from '../util/graphql';
 import MyPopup from '../util/MyPopup';
-import PropTypes from 'prop-types';
 
 const DeleteButton = ({ postId, commentId, callBack }) => {
   const [confirmOpen, setConfirmOpen] = useState(false);
